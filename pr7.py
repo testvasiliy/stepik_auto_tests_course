@@ -1,7 +1,7 @@
 from selenium import webdriver
 import math
 import time
-link = "http://suninjuly.github.io/get_attribute.html"
+link = "http://suninjuly.github.io/get_attribute.html"#Переход по ссылке
 try:
     browser = webdriver.Chrome()
     browser.get(link)
