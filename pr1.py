@@ -3,7 +3,7 @@ import time
 import math
 driver = webdriver.Chrome()
 time.sleep(1)
-driver.get('http://suninjuly.github.io/find_link_text')
+driver.get('http://suninjuly.github.io/find_link_text') #Переход по ссылке
 link = driver.find_element_by_link_text('224592').click()
 try:
  element1 = driver.find_element_by_name('first_name')
