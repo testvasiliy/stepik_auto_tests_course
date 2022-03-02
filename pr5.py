@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 try: 
-    link = "http://suninjuly.github.io/registration2.html"
+    link = "http://suninjuly.github.io/registration2.html"#Переход по ссылке
     browser = webdriver.Chrome()
     browser.get(link)
     input1 = browser.find_element(By.CSS_SELECTOR, 'div.first_block > div.form-group.first_class > input') #Имя обязательное поле
