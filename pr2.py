@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 try:
     browser = webdriver.Chrome()
-    browser.get("http://suninjuly.github.io/huge_form.html")
+    browser.get("http://suninjuly.github.io/huge_form.html")#Переход по ссылке
     element1 = browser.find_element_by_name('firstname')
     element1.send_keys("Ivan")
     element2 = browser.find_element_by_name('lastname') 
