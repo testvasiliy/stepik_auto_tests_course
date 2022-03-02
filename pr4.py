@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time 
-link = "http://suninjuly.github.io/registration2.html"
+link = "http://suninjuly.github.io/registration2.html"#Переход по ссылке
 try:
     browser = webdriver.Chrome()
     browser.get(link)
