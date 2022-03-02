@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import os 
 import time
-link = "http://suninjuly.github.io/file_input.html"
+link = "http://suninjuly.github.io/file_input.html"#Переход по ссылке
 try:
     browser = webdriver.Chrome()
     browser.get(link)
