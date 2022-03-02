@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 import time
 import math
 try: 
-    link = "http://suninjuly.github.io/selects1.html"
+    link = "http://suninjuly.github.io/selects1.html"#Переход по ссылке
     browser = webdriver.Chrome()
     browser.get(link)
     x = browser.find_element(By.ID, "num1")
