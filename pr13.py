@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import math
-link = "http://suninjuly.github.io/explicit_wait2.html"
+link = "http://suninjuly.github.io/explicit_wait2.html"#Переход по ссылке
 try:
     browser = webdriver.Chrome()
     browser.get(link)
