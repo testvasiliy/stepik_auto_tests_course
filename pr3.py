@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time 
-link = "http://suninjuly.github.io/find_xpath_form"
+link = "http://suninjuly.github.io/find_xpath_form"#Переход по ссылке
 try:
     browser = webdriver.Chrome()
     browser.get(link)
